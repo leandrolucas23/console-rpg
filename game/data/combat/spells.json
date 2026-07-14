@@ -1,0 +1,66 @@
+{
+  "spells": {
+    "fireball": {
+      "name_key": "spell.fireball.name",
+      "description_key": "spell.fireball.description",
+
+      "tags": ["offensive", "fire"],
+
+      "requirements": {
+        "classes": ["mage"],
+        "level": 1
+      },
+
+      "cost": { "mp": 5 },
+      "target": "enemy",
+      "accuracy": 0.85,
+
+      "effects": [
+        {
+          "type": "damage",
+          "damage_type": "fire",
+          "base": 12,
+          "scaling": {
+            "attribute": "intelligence",
+            "multiplier": 1.4
+          }
+        },
+        {
+          "type": "apply_status",
+          "status_id": "burn",
+
+          "base": 4,
+          "chance": 0.2,
+          "duration": 2
+        }
+      ]
+    },
+
+    "barrier": {
+      "name_key": "spell.barrier.name",
+      "description_key": "spell.barrier.description",
+
+      "tags": ["defensive", "shield", "arcane"],
+
+      "requirements": {
+        "classes": ["mage"],
+        "level": 2
+      },
+
+      "cost": { "mp": 10 },
+      "target": "self",
+      "accuracy": 1.0,
+
+      "effects": [
+        {
+          "type": "apply_status",
+          "status_id": "barrier_shield",
+
+          "base": 10,
+          "chance": 1.0,
+          "duration": 5
+        }
+      ]
+    }
+  }
+}

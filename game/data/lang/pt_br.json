@@ -1,0 +1,39 @@
+{
+  "combat.attack": "{attacker} atacou {target}",
+  "combat.damage": "{target} recebeu {amount} de dano",
+  "combat.spell": "{caster} utilizou {spell_name}!",
+  "combat.shield_absorbed": "{target} absorveu {amount} de dano com seu escudo.",
+
+
+  "system.ui.message_up": "▲ {hidden} mensagens acima",
+  "system.ui.question.move": "para onde mover?",
+  "system.ui.question.attack": "quem atacar?",
+
+
+  "class.mage.name": "mago",
+  "class.mage.description": "exímio estudioso das artes arcanas.",
+
+  "class.warrior.name": "guerreiro",
+  "class.warrior.description": "poderoso combatente e mestre em diferentes estilos de luta",
+
+  "class.rogue.name": "ladino",
+  "class.rogue.description": "ardiloso nas sombras. é especialista em roubos e assasinatos",
+
+
+  "monster.goblin.name": "goblin",
+  "monster.goblin.description": "pequena criatura traiçoeira e oportunista.",
+
+  "monster.giant_rat.name": "rato gigante",
+  "monster.giant_rat.description": "maior do que seus semelhantes, ele busca saciar sua fome a todo custo.",
+
+  "monster.hunting_spider.name": "aranha caçadora",
+  "monster.hunting_spider.description": "criatura voraz de presas afiadas. perambula pelas árvores em busca de sua próxima refeição",
+
+
+  "entity.humanoid_monster.monster": "monstro humanoide",
+  "entity.beast.monster": "besta",
+  "entity.arachnid.monster": "aracnídeo",
+
+  "attribute.common_rarity.name": "comum",
+  "attribute.unusual_rarity.name": "incomum"
+}

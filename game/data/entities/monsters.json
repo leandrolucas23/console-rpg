@@ -1,0 +1,58 @@
+{
+    "m001": {
+        "meta": {
+            "name_key": "monster.goblin.name",
+            "description_key": "monster.goblin.description",
+            "category_key": "entity.humanoid_monster.monster",
+            "rarity_key": "common"
+        },
+        "base_attributes": {
+            "hp": 10,
+            "mp": 5,
+            "str": 4,
+            "dex": 3,
+            "con": 3,
+            "int": 2,
+            "wis": 1,
+            "cha": 1
+        }
+    },
+
+    "m002": {
+        "meta": {
+            "name_key": "monster.giant_rat.name",
+            "description_key": "monster.giant_rat.description",
+            "category_key": "entity.beast.monster",
+            "rarity_key": "common"
+        },
+        "base_attributes": {
+            "hp": 8,
+            "mp": 5,
+            "str": 3,
+            "dex": 4,
+            "con": 5,
+            "int": 3,
+            "wis": 1,
+            "cha": 1
+        }
+    },
+
+    "m003": {
+        "meta": {
+            "name_key": "monster.hunting_spider.name",
+            "description_key": "monster.hunting_spider.description",
+            "category_key": "entity.arachnid.monster",
+            "rarity_key": "uncommon"
+        },
+        "base_attributes": {
+            "hp": 20,
+            "mp": 10,
+            "str": 5,
+            "dex": 4,
+            "con": 8,
+            "int": 4,
+            "wis": 2,
+            "cha": 2
+        }
+    }
+}

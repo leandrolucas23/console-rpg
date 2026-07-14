@@ -1,0 +1,58 @@
+{
+  "mage": {
+    "meta": {
+      "name_key": "class.mage.name",
+      "description_key": "class.mage.description"
+    },
+
+    "attributes": {
+        "hp": 10,
+        "mp": 25,
+
+        "str": 3,
+        "dex": 4,
+        "con": 3,
+        "int": 8,
+        "wis": 6,
+        "cha": 6
+    }
+  },
+
+  "warrior": {
+    "meta": {
+      "name_key": "class.warrior.name",
+      "description_key": "class.warrior.description"
+    },
+
+    "attributes": {
+      "hp": 28,
+      "mp": 5,
+
+      "str": 8,
+      "dex": 6,
+      "con": 6,
+      "int": 3,
+      "wis": 3,
+      "cha": 4
+    }
+  },
+
+  "rogue": {
+    "meta": {
+      "name_key": "class.rogue.name",
+      "description_key": "class.rogue.description"
+    },
+
+    "attributes": {
+      "hp": 20,
+      "mp": 15,
+
+      "str": 3,
+      "dex": 8,
+      "con": 4,
+      "int": 6,
+      "wis": 3,
+      "cha": 6
+    }
+  }
+}
